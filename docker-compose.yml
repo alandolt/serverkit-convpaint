@@ -1,0 +1,17 @@
+services:
+  convpaint:
+    container_name: convpaint_single
+    build:
+      context: .
+      dockerfile: Dockerfile_GPU
+    image: serverkit_convpaint:gpu-latest
+    ports:
+      - "8030:8000"
+    volumes:
+      - E:\models\convpaint:/models
+      - .\cache:/root/.cache/
+    deploy: 
+      resources: 
+        reservations: 
+          devices: 
+            - capabilities: [gpu]

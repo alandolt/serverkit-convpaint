@@ -1,0 +1,10 @@
+project_slug: "serverkit-convpaint"
+project_url: "https://github.com/guiwitz/napari-convpaint"
+serverkit_repo_url: "https://github.com/Imaging-Server-Kit/serverkit-serverkit-convpaint"
+serverkit_author: "Alex Landolt"
+project_name: "Convpaint"
+description: "The project description was not filled in."
+used_for:
+  - "Segmentation"
+tags:
+  - "EPFL"
